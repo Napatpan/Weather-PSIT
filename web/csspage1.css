@@ -30,14 +30,17 @@ body {
     font-weight: normal;
     padding: 10px;
 }
+
 .menubar ul.menu {
     list-style: none;
     float: right;
 }
+
 .menubar ul.menu li {
     float: left;
     margin-right: 20px;
 }
+
 .menubar ul.menu li a {
     text-decoration: none;
     color: #333;
@@ -45,6 +48,7 @@ body {
     padding-bottom: 20px;
     transition: all 0.3s ease;
 }
+
 .menubar ul.menu li a:hover {
     border-bottom: 2px solid #333;
     padding-bottom: 0;
@@ -65,16 +69,27 @@ body {
     margin: 0 auto;
     width: 660px;
 }
+
 .header_area h1 {
     margin: 0;
     font-size: 60px;
     font-weight: normal;
 }
+
 .header_area p {
     margin: 0 auto;
     margin-top: 15px;
     width: 480px;
     font-size: 16px;
+    font-family: "Ekkamai Standard";
+}
+
+.header_area h5 {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 480px;
+    font-size: 16px;
+    font-family: "Ekkamai Standard";
 }
 
 .button {
@@ -84,34 +99,39 @@ body {
     color: #333333;
     text-decoration: none;
     transition: 0.3s;
-  }
-  
-  .button:hover {
+}
+
+.button:hover {
     background: #333333;
     color: #fff;
-  }
+}
 
-  .info1 {
+.info1 {
     width: 100%;
     height: 420px;
     background: #fff
 }
+
 .info1_area {
     color: #333333;
 }
+
 .info1_area img {
     margin-top: 65px;
     width: 40%;
     height: 300px;
     float: right;
 }
+
 .info1_text {
     text-align: center;
     width: 460px;
     float: left;
     margin-left: 20px;
     margin-top: 140px;
+    font-family: "Ekkamai Standard";
 }
+
 .info1_area h1 {
     margin: 0;
     font-weight: normal;
@@ -122,9 +142,11 @@ body {
     height: 400px;
     background: #FA8072;
 }
+
 .info2_area {
     color: #333;
 }
+
 .info2_area img {
     margin-top: 70px;
     width: 35%;
@@ -132,6 +154,7 @@ body {
     float: left;
     margin-left: 40px;
 }
+
 .info2_text {
     text-align: center;
     width: 460px;
@@ -139,7 +162,9 @@ body {
     margin-left: 70px;
     margin-top: 140px;
     color: #fff;
+    font-family: "Ekkamai Standard";
 }
+
 .info2_area h1 {
     margin: 0;
     font-weight: normal;
@@ -153,6 +178,7 @@ body {
 .contact_area h1 {
     font-weight: normal;
 }
+
 .contact_area input {
     margin: 10px 0;
     border: 2px solid #333;
@@ -177,6 +203,7 @@ body {
     transition: all 0.3s ease;
     cursor: pointer;
 }
+
 .contact_area button:hover {
     background: #fff;
     color: #333;
@@ -190,6 +217,7 @@ footer {
     text-align: center;
     color: #fff;
 }
+
 footer p {
     margin: 0;
 }
