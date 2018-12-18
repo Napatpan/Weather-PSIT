@@ -55,7 +55,7 @@ body {
 }
 
 .header {
-    background: #666 url(weather1.jpg) no-repeat;
+    background: #666 url(sun.jpg) no-repeat;
     background-position: center center;
     background-size: cover;
     width: 100%;
